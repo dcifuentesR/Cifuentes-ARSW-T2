@@ -5,6 +5,11 @@ public class Weather {
 	private int id;
 	private String summary;
 	private String description;
+	public Weather(int id, String summary, String description) {
+		this.id = id;
+		this.summary = summary;
+		this.description = description;
+	}
 	public int getId() {
 		return id;
 	}

@@ -9,8 +9,14 @@ public class City {
 	private Coordenates coordenates;
 	private Weather currentWeather;
 
-	public City(String name) {
+	
+
+	public City(String name, String id, String country, Coordenates coordenates, Weather currentWeather) {
 		this.name = name;
+		this.id = id;
+		this.country = country;
+		this.coordenates = coordenates;
+		this.currentWeather = currentWeather;
 	}
 
 	public String getName() {

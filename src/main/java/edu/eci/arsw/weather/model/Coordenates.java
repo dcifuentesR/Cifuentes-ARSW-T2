@@ -1,17 +1,23 @@
 package edu.eci.arsw.weather.model;
 
 public class Coordenates {
-	private float lon;
-	private float lat;
+	
+	private double lon;
+	private double lat;
 	
 	
-	public float getLon() {
+	public Coordenates(double d, double e) {
+		this.lon = d;
+		this.lat = e;
+	}
+	
+	public double getLon() {
 		return lon;
 	}
 	public void setLon(float lon) {
 		this.lon = lon;
 	}
-	public float getLat() {
+	public double getLat() {
 		return lat;
 	}
 	public void setLat(float lat) {

@@ -3,6 +3,10 @@ package edu.eci.arsw.weather.model;
 public class Wind {
 	private float speed;
 	private float angle;
+	public Wind(float speed, float angle) {
+		this.speed = speed;
+		this.angle = angle;
+	}
 	public float getSpeed() {
 		return speed;
 	}

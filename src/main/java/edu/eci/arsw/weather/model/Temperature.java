@@ -6,6 +6,13 @@ public class Temperature {
 	private int humidity;
 	private int minTemperature;
 	private int maxTemperature;
+	public Temperature(float temperature, int pressure, int humidity, int minTemperature, int maxTemperature) {
+		this.temperature = temperature;
+		this.pressure = pressure;
+		this.humidity = humidity;
+		this.minTemperature = minTemperature;
+		this.maxTemperature = maxTemperature;
+	}
 	public float getTemperature() {
 		return temperature;
 	}
